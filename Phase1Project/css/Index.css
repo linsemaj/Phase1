@@ -1,0 +1,45 @@
+.left{
+    float: left;
+}
+.right{
+   float: right !important;
+}
+.clear{
+    clear:both;
+}
+.absoluteLeft{
+    left:0;
+}
+footer{
+    background: lightgray;
+    opacity: 0.8;
+    bottom: 0;
+}
+body{
+    background-image: url("../img/pexels-nate-1036657.jpg") ;
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+     background-color: #cccccc;
+}
+.container{
+
+        background: lightgray;
+        opacity: 0.90;
+        height: 500px;
+}
+/* .login{
+    background-color: rgb(6, 184, 59);
+    margin-top: 70px;
+    z-index: 1;
+    text-align: center;
+    margin: 60px auto auto auto;
+    align-items: center;
+    justify-items: center;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:-50px;
+    left:0px;
+    z-index:3000;
+} */
