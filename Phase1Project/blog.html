@@ -21,7 +21,7 @@
 </head>
 
 <body>
-   
+
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <h3 class="white-text">The Company: Blog</h3>
@@ -48,18 +48,165 @@
             </div>
         </nav>
     </header>
-    <main> 
-        <div class="blogB first bigDiv">
-            <div class="white-text">
-                <h1>Newsletter articles</h1>
+    <main>
+
+        <button id="articleBtn" class="btn btn-success fixedbtn">Add a new article</button>
+        <div id="articleForm" class="grayback white-text">
+            <form action="" name="formName"  method="">
+                <div>
+                    <label>Title</label><input class="form-control" id="newH" type="text" placeholder="Type title here">
+                </div>
+                <div>
+                    <label>Body</label><textarea class="form-control" id="newP" rows="10"
+                        placeholder="Type body here"></textarea>
+                </div>
+                <div class="center">
+                    <button class="btn btn-success" onclick="checkArticle()" type="button">Submit</button>
+                    <button class="btn btn-secondary" type="reset">Reset</button>
+                </div>
+            </form>
+            <div>
+                <button onclick="hideForm()" class="btn btn-warning">Close Form</button>
             </div>
         </div>
-        <div>
-            <div class="blogImg1 bigDiv">
-            </div>
-            </div>
-            <div class="blogImg2 bigDiv">
+        <div class="blogB first bigDiv">
+            <div class="white-text clear">
+                <div class="left">
 
+                    <h1>Newsletter articles</h1>
+                </div>
+            </div>
+            <div class="greenBack clear container first">
+                <div>
+                    <h1>Super Intesting Facts</h1>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras.
+                        Venenatis lectus magna fringilla urna porttitor rhoncus. Nulla pellentesque dignissim enim sit
+                        amet venenatis urna. Nibh venenatis cras sed felis eget velit aliquet. Tristique sollicitudin
+                        nibh sit amet commodo nulla facilisi nullam. Semper viverra nam libero justo. Tellus
+                        pellentesque eu tincidunt tortor aliquam nulla facilisi. Nisi est sit amet facilisis. Justo eget
+                        magna fermentum iaculis eu non diam phasellus vestibulum. Tristique nulla aliquet enim tortor
+                        at. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Duis ut diam quam nulla
+                        porttitor massa. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+
+                        Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Augue interdum velit
+                        euismod in pellentesque. Ac auctor augue mauris augue neque. Volutpat odio facilisis mauris sit
+                        amet massa vitae tortor condimentum. Aliquet eget sit amet tellus cras adipiscing. Turpis massa
+                        tincidunt dui ut ornare lectus sit amet. Urna cursus eget nunc scelerisque viverra mauris in
+                        aliquam sem. Sed viverra tellus in hac habitasse. Eu ultrices vitae auctor eu augue ut. Enim eu
+                        turpis egestas pretium. Ultricies mi quis hendrerit dolor magna. Ultrices tincidunt arcu non
+                        sodales neque.</p>
+                </div>
+            </div>
+            <div class="orangeback clear container first">
+                <div class="topspace ">
+                    <h1>Other information</h1>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras.
+                        Venenatis lectus magna fringilla urna porttitor rhoncus. Nulla pellentesque dignissim enim sit
+                        amet venenatis urna. Nibh venenatis cras sed felis eget velit aliquet. Tristique sollicitudin
+                        nibh sit amet commodo nulla facilisi nullam. Semper viverra nam libero justo. Tellus
+                        pellentesque eu tincidunt tortor aliquam nulla facilisi. Nisi est sit amet facilisis. Justo eget
+                        magna fermentum iaculis eu non diam phasellus vestibulum. Tristique nulla aliquet enim tortor
+                        at. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Duis ut diam quam nulla
+                        porttitor massa. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+
+                        Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Augue interdum velit
+                        euismod in pellentesque. Ac auctor augue mauris augue neque. Volutpat odio facilisis mauris sit
+                        amet massa vitae tortor condimentum. Aliquet eget sit amet tellus cras adipiscing. Turpis massa
+                        tincidunt dui ut ornare lectus sit amet. Urna cursus eget nunc scelerisque viverra mauris in
+                        aliquam sem. Sed viverra tellus in hac habitasse. Eu ultrices vitae auctor eu augue ut. Enim eu
+                        turpis egestas pretium. Ultricies mi quis hendrerit dolor magna. Ultrices tincidunt arcu non
+                        sodales neque.</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="blogImg1 bigDiv">
+                    <div class="greenBack clear container first">
+                        <div>
+                            <h1>Super Intesting Facts</h1>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Cras pulvinar mattis nunc sed blandit libero volutpat sed
+                                cras.
+                                Venenatis lectus magna fringilla urna porttitor rhoncus. Nulla pellentesque dignissim
+                                enim sit
+                                amet venenatis urna. Nibh venenatis cras sed felis eget velit aliquet. Tristique
+                                sollicitudin
+                                nibh sit amet commodo nulla facilisi nullam. Semper viverra nam libero justo. Tellus
+                                pellentesque eu tincidunt tortor aliquam nulla facilisi. Nisi est sit amet facilisis.
+                                Justo eget
+                                magna fermentum iaculis eu non diam phasellus vestibulum. Tristique nulla aliquet enim
+                                tortor
+                                at. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Duis ut diam quam nulla
+                                porttitor massa. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+
+                                Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Augue interdum
+                                velit
+                                euismod in pellentesque. Ac auctor augue mauris augue neque. Volutpat odio facilisis
+                                mauris sit
+                                amet massa vitae tortor condimentum. Aliquet eget sit amet tellus cras adipiscing.
+                                Turpis massa
+                                tincidunt dui ut ornare lectus sit amet. Urna cursus eget nunc scelerisque viverra
+                                mauris in
+                                aliquam sem. Sed viverra tellus in hac habitasse. Eu ultrices vitae auctor eu augue ut.
+                                Enim eu
+                                turpis egestas pretium. Ultricies mi quis hendrerit dolor magna. Ultrices tincidunt arcu
+                                non
+                                sodales neque.</p>
+                        </div>
+                    </div>
+                    <div class="orangeback clear container first">
+                        <div class="topspace ">
+                            <h1>Information to save the Universe</h1>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Cras pulvinar mattis nunc sed blandit libero volutpat sed
+                                cras.
+                                Venenatis lectus magna fringilla urna porttitor rhoncus. Nulla pellentesque dignissim
+                                enim sit
+                                amet venenatis urna. Nibh venenatis cras sed felis eget velit aliquet. Tristique
+                                sollicitudin
+                                nibh sit amet commodo nulla facilisi nullam. Semper viverra nam libero justo. Tellus
+                                pellentesque eu tincidunt tortor aliquam nulla facilisi. Nisi est sit amet facilisis.
+                                Justo eget
+                                magna fermentum iaculis eu non diam phasellus vestibulum. Tristique nulla aliquet enim
+                                tortor
+                                at. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Duis ut diam quam nulla
+                                porttitor massa. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+
+                                Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor. Augue interdum
+                                velit
+                                euismod in pellentesque. Ac auctor augue mauris augue neque. Volutpat odio facilisis
+                                mauris sit
+                                amet massa vitae tortor condimentum. Aliquet eget sit amet tellus cras adipiscing.
+                                Turpis massa
+                                tincidunt dui ut ornare lectus sit amet. Urna cursus eget nunc scelerisque viverra
+                                mauris in
+                                aliquam sem. Sed viverra tellus in hac habitasse. Eu ultrices vitae auctor eu augue ut.
+                                Enim eu
+                                turpis egestas pretium. Ultricies mi quis hendrerit dolor magna. Ultrices tincidunt arcu
+                                non
+                                sodales neque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blogImg2 bigDiv">
+            <div></div>
+            <div class="redback container">
+                <div id="adderDiv"></div>
+            </div>
         </div>
 
         </div>
@@ -69,7 +216,8 @@
         <div class="last">
             <h3>Credits</h3>
             <p>Logo source: Logodesign.net, edited by James Lin</p>
-            <p>Night sky background Photo by Min An from Pexels</p>
+            <p>Photo by Ali Pazani from Pexels</p>
+            <p>Photo by Athena from Pexels</p>
             <h6>&copy;Copyright Beginning of time- End of time</h6>
             <h6>All rights reserved by The Company</h6>
         </div>
@@ -81,6 +229,6 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
-<script src="./js/index.js"></script>
+<script src="./js/blog.js"></script>
 
 </html>

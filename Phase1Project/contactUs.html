@@ -54,7 +54,7 @@
         <div class="expandDiv center greenB container">
             <h1>Feel free to reach out!</h1>
             <div>
-                <form name="contactForm" onsubmit="return verifyForm()" method="get">
+                <form name="contactForm" method="get">
                     <div id="success" class="d-none">
                         Message received! Thank you for contacting us.
                     </div>
@@ -65,7 +65,7 @@
                     <p id="emailErr"></p>
                     <textarea class="form-control" id="message" rows="3" placeholder="Enter message"></textarea>
                     <p id="messageErr"></p>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="button" onclick="verifyForm()" class="btn btn-primary">Submit</button>
                     <input type="reset" class="btn btn-secondary" placeholder="Reset">
 
                 </form>
