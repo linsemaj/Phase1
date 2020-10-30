@@ -70,12 +70,31 @@ h6{
 .expandDiv{
     min-height: 300px;
 }
+.aboutUs1{
+    background-image: url("../img/pexels-moose-photos-1036645.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-color: #cccccc;
+    min-height: 700px;
+}
+.clearB{
+    min-height: 300px;
+    opacity: 0.95;
+}
+.aboutUs2{
+    background-image: url("../img/pexels-pixabay-290593.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: #cccccc;
+    min-height: 500px;
+}
 .homeB{
     background-image: url("../img/pexels-nate-1036657.jpg");
     background-repeat: repeat;
     background-size: 100%;
     background-attachment: fixed;
- 
     background-color: #cccccc;
 }
 .blogB{
@@ -86,7 +105,7 @@ h6{
     background-color: #cccccc;
 }
 .aboutB{
-    background-image: url("");
+    background-image: url("../img/pexels-fauxels-3184423.jpg");
     background-repeat: repeat;
     background-size: 100%;
     background-attachment: fixed;
