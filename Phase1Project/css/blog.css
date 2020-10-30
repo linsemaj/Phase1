@@ -18,7 +18,7 @@ footer{
     bottom: 0;
 }
 body{
-    background-image: url("../img/pexels-nate-1036657.jpg");
+    background-image: url("../img/pexels-min-an-713664.jpg");
     background-repeat: repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -33,36 +33,6 @@ body{
 .active{
     background-color: rgb(156, 82, 82);
 }
-li{
-    margin-left: auto;
-}
 .white-text{
-    color: white;
-}
-.first{
-    margin-top: 60px;
-}
-.divFloat{
-    width: 48%;
-    display: inline-block;
-    background: lightgray;
-    opacity: 0.90;
-    height: 100%;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 5%;
-    min-height: 700px;
-}
-.last{
-    padding-bottom: 40px;
-    color: white;
-    margin-left: auto;
-}
-
-.mt-5{
-    margin-top: 10px !important;
-}
-h6{
-    font-size: 15px;
     color: white;
 }
