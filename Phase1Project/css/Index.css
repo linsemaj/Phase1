@@ -17,18 +17,12 @@ footer{
     background: #262626;
     bottom: 0;
 }
-body{
-    background-image: url("../img/pexels-nate-1036657.jpg");
-    background-repeat: repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-    background-color: #cccccc;
-}
-.container{
+.hContainer{
         background: lightgray;
         opacity: 0.90;
         margin-bottom: auto;
         padding-bottom: 20px;
+        min-height: 200px;
 }
 .active{
     background-color: rgb(156, 82, 82);
@@ -40,18 +34,16 @@ li{
     color: white;
 }
 .first{
-    margin-top: 60px;
+    margin-top: 66px;
 }
 .divFloat{
-    width: 48%;
-    display: inline-block;
     background: lightgray;
     opacity: 0.90;
     height: 100%;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 5%;
-    min-height: 700px;
+    margin-bottom: 2.5%;
+    min-height: 500px;
 }
 .last{
     padding-bottom: 40px;
@@ -65,4 +57,62 @@ li{
 h6{
     font-size: 15px;
     color: white;
+}
+.indexOL li{
+    font-size: 30px;
+}
+.greenB{
+    background-color: yellowgreen;
+}
+.center{
+    text-align: center;
+}
+.expandDiv{
+    min-height: 300px;
+}
+.homeB{
+    background-image: url("../img/pexels-nate-1036657.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+ 
+    background-color: #cccccc;
+}
+.blogB{
+    background-image: url("../img/pexels-min-an-713664.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: #cccccc;
+}
+.aboutB{
+    background-image: url("");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: #cccccc;
+}
+.contactUsB{
+    background-image: url("../img/pexels-fauxels-3183197.jpg");
+    background-repeat: repeat;
+    background-position: top;
+    background-size: 100% 500px;
+    background-attachment: fixed;
+}
+.blogImg1{
+    background-image: url("../img/pexels-athena-1760459.jpg");
+    background-repeat: repeat;
+    background-position: top;
+    background-size: 100%;
+    background-attachment: scroll;
+}
+.blogImg2{
+    background-image: url("../img/pexels-ali-pazani-2777898.jpg");
+    background-repeat: repeat;
+    background-position: top;
+    background-size: 100%;
+    background-attachment: scroll;
+}
+.bigDiv{
+    min-height: 800px;
 }

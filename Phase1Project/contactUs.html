@@ -22,7 +22,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <h3 class="white-text">The Company: Contact Us</h3>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03"
                 aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,21 +46,48 @@
                 </ul>
             </div>
         </nav>
-
     </header>
 
+    <main class="first">
+        <div class="expandDiv contactUsB">
+        </div>
+        <div class="expandDiv center greenB container">
+            <h1>Feel free to reach out!</h1>
+            <div>
+                <form name="contactForm" onsubmit="return verifyForm()" method="get">
+                    <div id="success" class="d-none">
+                        Message received! Thank you for contacting us.
+                    </div>
+
+                    <input type="text" class="form-control" id="name" placeholder="Your name">
+                    <p id="nameErr"></p>
+                    <input type="text" class="form-control" id="email" placeholder="Enter your email">
+                    <p id="emailErr"></p>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Enter message"></textarea>
+                    <p id="messageErr"></p>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <input type="reset" class="btn btn-secondary" placeholder="Reset">
+
+                </form>
+            </div>
+        </div>
+
+    </main>
 
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+    <footer class="clear">
+        <img style="height: 200px; width: 200px;" class="image img logo left" src="./img/freeLogo-1.jpeg">
+        <div class="last">
+            <h3>Credits</h3>
+            <p>Logo source: Logodesign.net, edited by James Lin</p>
+            <p>Photo by Fauxels from Pexels</p>
+            <h6>&copy;Copyright Beginning of time- End of time</h6>
+            <h6>All rights reserved by The Company</h6>
+        </div>
+    </footer>
 </body>
+
+<script src="./js/index.js"></script>
 
 </html>
